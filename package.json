@@ -1,0 +1,23 @@
+{
+  "name": "vue2-countdown",
+  "version": "1.0.0",
+  "description": "基于vue2.0的活动倒计时组件,可以使用服务端当前时间,在倒计时开始或者结束的时候,可以自定义回调.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgygd/vue2-countdown.git"
+  },
+  "keywords": [
+    "vuejs",
+    "countdown"
+  ],
+  "author": "cgygd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgygd/vue2-countdown/issues"
+  },
+  "homepage": "https://github.com/cgygd/vue2-countdown#readme"
+}

@@ -1,1 +1,1 @@
-module.exports=require('./lib')
+module.exports=require('./lib/vue2-countdown.vue')

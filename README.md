@@ -49,8 +49,8 @@ components: {
     
 ### callBack
 1. **start_callback** - 开始倒计时结束之后的回调方法
-    - **type**: function
+    - **type**: Function
     - **required** : false
 2. **end_callback** - 活动倒计时结束之后的回调方法
-    - **type**: function
+    - **type**: Function
     - **required** : false

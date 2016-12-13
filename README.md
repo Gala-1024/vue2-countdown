@@ -13,7 +13,7 @@ npm install vue2-countdown --save
 ## Usage
 
 ```js
-import countDown from 'vue2-countdown'
+import CountDown from 'vue2-countdown'
 components: {
     CountDown
 }

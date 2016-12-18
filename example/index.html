@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue2-countdown</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://cdn.bootcss.com/vue/2.1.4/vue.js"></script>
+</head>
+<body>
+    <div id="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>vue2-countdown example</h3>
+                    <p>
+                        使用文档：<a href="https://github.com/cgygd/vue2-countdown#vue2-countdown" target="_blank">https://github.com/cgygd/vue2-countdown#options</a>
+                    </p>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <b>默认配置</b>
+                        </div>
+                        <div class="panel-body text-danger">
+                            <count-down :current-time="1481450106" :start-time="1481450116" :end-time="1481450126" v-on:start_callback="countDownS_cb(1)" v-on:end_callback="countDownE_cb(1)"></count-down>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <b>自定义文字</b>
+                        </div>
+                        <div class="panel-body text-danger">
+                            <count-down :current-time="1481450106" :start-time="1481450126" :end-time="1481450216" :tip-text="'自定义开始文字'" :tip-text-end="'自定义结束文字'" :end-text="'结束啦～'" v-on:start_callback="countDownS_cb(2)" v-on:end_callback="countDownE_cb(2)"></count-down>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <b>不传服务器当前时间戳(默认获取用户本地时间戳)</b>
+                        </div>
+                        <div class="panel-body text-danger">
+                            <count-down :start-time="startTime" :end-time="endTime" v-on:start_callback="countDownS_cb(3)" v-on:end_callback="countDownE_cb(3)"></count-down>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="lib/vue2-countdown.js"></script>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '#demo',
+            data:{
+                callBk:'',
+                startTime:( new Date() ).getTime()+(100*300),
+                endTime:( new Date() ).getTime()+(500*500)
+            },
+            components: {
+                'count-down': countdown,
+                'readme':readme
+            },
+            methods:{
+                countDownS_cb:function(a){
+                    console.log('callBack--'+a+'--开始倒计时结束回调');
+                },
+                countDownE_cb:function(a){
+                    console.log('callBack--'+a+'--活动剩余倒计时结束回调');
+                }
+            },
+        })
+    </script>
+</body>
+</html>

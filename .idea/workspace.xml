@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661476fe-be6a-4c1f-af9c-5ffccd0e0e8f" name="默认" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="vue2-countdown.iws" />
@@ -37,10 +38,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <first_editor relative-caret-position="144">
+                <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
                 <folding>
-                  <marker date="1482045369000" expanded="true" signature="307:324" ph="{...}" />
+                  <marker date="1482045473000" expanded="true" signature="361:378" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -190,12 +191,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481629743861</updated>
       <workItem from="1481629745414" duration="3068000" />
-      <workItem from="1482043393203" duration="1397000" />
+      <workItem from="1482043393203" duration="1482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4465000" />
+    <option name="totallyTimeSpent" value="4550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="12" width="1276" height="777" extended-state="0" />
@@ -273,10 +274,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <first_editor relative-caret-position="144">
+            <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
             <folding>
-              <marker date="1482045369000" expanded="true" signature="307:324" ph="{...}" />
+              <marker date="1482045473000" expanded="true" signature="361:378" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

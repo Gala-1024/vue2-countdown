@@ -3,8 +3,8 @@
 基于vue2.0的活动倒计时组件  
 可以使用服务端当前时间  
 在倒计时开始或者结束的时候,可以自定义回调.  
-文档：<a href="https://cgygd.github.io/vue2-countdown/">https://cgygd.github.io/vue2-countdown/</a>  
-demo：https://cgygd.github.io/vue2-countdown/example/index.html
+文档：<a href="https://cgygd.github.io/vue2-countdown/" target="_blank">https://cgygd.github.io/vue2-countdown/</a>  
+demo：<a href="https://cgygd.github.io/vue2-countdown/example/index.html" target="_blank">https://cgygd.github.io/vue2-countdown/example/index.html</a>
 
 ## Install
 ```

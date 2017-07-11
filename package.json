@@ -1,51 +1,23 @@
 {
-  "_from": "vue2-countdown",
-  "_id": "vue2-countdown@1.0.8",
-  "_inBundle": false,
-  "_integrity": "sha1-VR5cNgAQinNpdVoSw1EvP45O930=",
-  "_location": "/vue2-countdown",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "vue2-countdown",
-    "name": "vue2-countdown",
-    "escapedName": "vue2-countdown",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/vue2-countdown/-/vue2-countdown-1.0.7.tgz",
-  "_shasum": "551e5c3600108a7369755a12c3512f3f8e4ef77d",
-  "_spec": "vue2-countdown",
-  "_where": "/Users/xiaoyu/Desktop/project/vue-ui-swiper",
-  "author": {
-    "name": "cgygd"
-  },
-  "bugs": {
-    "url": "https://github.com/cgygd/vue2-countdown/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "基于vue2.0的活动倒计时组件,可以使用服务端当前时间,在倒计时开始或者结束的时候,可以自定义回调.",
-  "homepage": "https://github.com/cgygd/vue2-countdown#readme",
-  "keywords": [
-    "vuejs",
-    "countdown"
-  ],
-  "license": "MIT",
-  "main": "index.js",
   "name": "vue2-countdown",
+  "version": "1.0.8",
+  "description": "基于vue2.0的活动倒计时组件,可以使用服务端当前时间,在倒计时开始或者结束的时候,可以自定义回调.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cgygd/vue2-countdown.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "vuejs",
+    "countdown"
+  ],
+  "author": "cgygd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgygd/vue2-countdown/issues"
   },
-  "version": "1.0.7"
+  "homepage": "https://github.com/cgygd/vue2-countdown#readme"
 }

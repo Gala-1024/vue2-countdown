@@ -98,6 +98,7 @@
     },
     methods: {
       gogogo: function () {
+        clearTimeout(this.timer)
         //判断是秒还是毫秒
         this.startTime.toString().length == 10 ? this.star = this.startTime * 1000 : this.star = this.startTime;
         this.endTime.toString().length == 10 ? this.end = this.endTime * 1000 : this.end = this.endTime;
@@ -163,7 +164,7 @@
           let _s = Date.now();
           let _e = Date.now();
           let diffPerFunc = _e - _s;
-          setTimeout(() => {
+          this.timer = setTimeout(() => {
             if (type) {
               this.runTime(this.end, endTime += 1000, callFun, true);
             } else {
